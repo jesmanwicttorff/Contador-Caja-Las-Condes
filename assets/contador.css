@@ -1,0 +1,106 @@
+/* ==== Reset básico ==== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* ==== Header ==== */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* ==== Filtros ==== */
+.filtros {
+  display: flex;
+  gap: 10px;
+  padding: 15px 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.filtros input,
+.filtros select {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.filtros button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filtros .aplicar {
+  background-color: #3498db;
+  color: white;
+}
+
+.filtros .reset {
+  background-color: #95a5a6;
+  color: white;
+}
+
+/* ==== Botón Agregar ==== */
+.boton-agregar {
+  margin: 20px;
+  padding: 10px 16px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* ==== Tarjeta contador ==== */
+.contador-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contador-card button {
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.contador-card button:hover {
+  background-color: #eee;
+}
+
+/* ==== Modal ==== */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
